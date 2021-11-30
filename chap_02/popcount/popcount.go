@@ -35,3 +35,13 @@ func InefficientPopCount(x uint64) int {
 	}
 	return int(count)
 }
+
+func AnotherPopCount(x uint64) int {
+	var count int
+	for x > 0 {
+		x = x & (x - 1)
+		count++
+	}
+
+	return count
+}
