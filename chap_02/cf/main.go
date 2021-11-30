@@ -5,7 +5,7 @@ import (
 	"os"
 	"strconv"
 
-	"example.com/chap_02/tempconv"
+	"local.packages/chap_02/tempconv"
 )
 
 func main() {
