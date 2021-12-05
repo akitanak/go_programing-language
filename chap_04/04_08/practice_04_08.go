@@ -1,0 +1,2 @@
+// unicode.IsLetterなどの関数を使ってUnicode分類に従って文字や数字などを数えるようにcharcountを修正する。
+package main

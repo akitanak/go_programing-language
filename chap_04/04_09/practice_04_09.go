@@ -1,0 +1,2 @@
+// 入力テキストファイル内のそれぞれの単語の出現頻度を報告するプログラムwordfreqを書きなさい。入力を行ではなく単語へ分割するために、最初のScan呼び出しの前にinput.Split(bufio.ScanWords)を呼び出しなさい。
+package main
